@@ -1,0 +1,18 @@
+server:
+  port: 9405
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: validate
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+
+security:
+  require-ssl: true
+
+kube:
+  service-enabled: false
+  default-addr: localhost
+
+

@@ -1,0 +1,27 @@
+HELP.md
+target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+aws_ks*
+*.conf
+*.jks
+*.p12
+*.pcks12
+kube.*
+application-local.*
+/instlogs/
+game.zip
